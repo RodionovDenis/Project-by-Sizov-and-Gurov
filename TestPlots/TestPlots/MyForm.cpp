@@ -1,4 +1,4 @@
-#include "MyForm.h"
+﻿#include "MyForm.h"
 #include "Table.h"
 #include <Windows.h>
 #include <iostream>

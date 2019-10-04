@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "Table.h"
 #include <cmath>
 
@@ -13,7 +13,7 @@ namespace TestPlots {
 	
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -21,17 +21,17 @@ namespace TestPlots {
 		MyForm(void)
 		{
 			InitializeComponent();
-			zedGraphControl1->GraphPane->XAxis->Title->Text = "Ось X";
-			zedGraphControl1->GraphPane->YAxis->Title->Text = "Ось U";
-			zedGraphControl1->GraphPane->Title ->Text= "Зависимость температуры от времени";
+			zedGraphControl1->GraphPane->XAxis->Title->Text = "РћСЃСЊ X";
+			zedGraphControl1->GraphPane->YAxis->Title->Text = "РћСЃСЊ U";
+			zedGraphControl1->GraphPane->Title ->Text= "Р—Р°РІРёСЃРёРјРѕСЃС‚СЊ С‚РµРјРїРµСЂР°С‚СѓСЂС‹ РѕС‚ РІСЂРµРјРµРЅРё";
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -80,14 +80,14 @@ namespace TestPlots {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -129,7 +129,7 @@ namespace TestPlots {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(59, 18);
 			this->label1->TabIndex = 7;
-			this->label1->Text = L"Задача";
+			this->label1->Text = L"Р—Р°РґР°С‡Р°";
 			// 
 			// label2
 			// 
@@ -138,7 +138,7 @@ namespace TestPlots {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(206, 18);
 			this->label2->TabIndex = 8;
-			this->label2->Text = L"Максимальное число шагов";
+			this->label2->Text = L"РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ С€Р°РіРѕРІ";
 			// 
 			// label3
 			// 
@@ -147,7 +147,7 @@ namespace TestPlots {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(116, 18);
 			this->label3->TabIndex = 9;
-			this->label3->Text = L"Начальный шаг";
+			this->label3->Text = L"РќР°С‡Р°Р»СЊРЅС‹Р№ С€Р°Рі";
 			// 
 			// textBox3
 			// 
@@ -178,7 +178,7 @@ namespace TestPlots {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(145, 33);
 			this->button2->TabIndex = 14;
-			this->button2->Text = L"Вычислить";
+			this->button2->Text = L"Р’С‹С‡РёСЃР»РёС‚СЊ";
 			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::Button2_Click);
 			// 
@@ -211,7 +211,7 @@ namespace TestPlots {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(136, 18);
 			this->label5->TabIndex = 17;
-			this->label5->Text = L"Прошло итераций ";
+			this->label5->Text = L"РџСЂРѕС€Р»Рѕ РёС‚РµСЂР°С†РёР№ ";
 			// 
 			// label4
 			// 
@@ -220,7 +220,7 @@ namespace TestPlots {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(148, 18);
 			this->label4->TabIndex = 19;
-			this->label4->Text = L"Начальные условия";
+			this->label4->Text = L"РќР°С‡Р°Р»СЊРЅС‹Рµ СѓСЃР»РѕРІРёСЏ";
 			// 
 			// label7
 			// 
@@ -241,7 +241,7 @@ namespace TestPlots {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(156, 18);
 			this->label6->TabIndex = 22;
-			this->label6->Text = L"Значение регулятора";
+			this->label6->Text = L"Р—РЅР°С‡РµРЅРёРµ СЂРµРіСѓР»СЏС‚РѕСЂР°";
 			// 
 			// textBox2
 			// 
@@ -258,7 +258,7 @@ namespace TestPlots {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(145, 33);
 			this->button1->TabIndex = 24;
-			this->button1->Text = L"Показать таблицу";
+			this->button1->Text = L"РџРѕРєР°Р·Р°С‚СЊ С‚Р°Р±Р»РёС†Сѓ";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::Button1_Click);
 			// 
@@ -276,7 +276,7 @@ namespace TestPlots {
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(204, 18);
 			this->label8->TabIndex = 26;
-			this->label8->Text = L"Контроль лок. погрешности";
+			this->label8->Text = L"РљРѕРЅС‚СЂРѕР»СЊ Р»РѕРє. РїРѕРіСЂРµС€РЅРѕСЃС‚Рё";
 			// 
 			// button3
 			// 
@@ -295,7 +295,7 @@ namespace TestPlots {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(178, 38);
 			this->label9->TabIndex = 28;
-			this->label9->Text = L"Использовать стандартные параметры";
+			this->label9->Text = L"РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃС‚Р°РЅРґР°СЂС‚РЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹";
 			// 
 			// MyForm
 			// 
@@ -400,13 +400,13 @@ namespace TestPlots {
 		int n = 1,j=0;
 		double x = 0;
 		double xmax = Convert::ToDouble(textBox4->Text);
-		double h = Convert::ToDouble(textBox3->Text);//шаг
-		double up = Convert::ToDouble(textBox2->Text);//значение регулятора
+		double h = Convert::ToDouble(textBox3->Text);//С€Р°Рі
+		double up = Convert::ToDouble(textBox2->Text);//Р·РЅР°С‡РµРЅРёРµ СЂРµРіСѓР»СЏС‚РѕСЂР°
 		double u0 = Convert::ToDouble(textBox5->Text);
-		double E= Convert::ToDouble(textBox6->Text);//контроль лок. погрешности
+		double E= Convert::ToDouble(textBox6->Text);//РєРѕРЅС‚СЂРѕР»СЊ Р»РѕРє. РїРѕРіСЂРµС€РЅРѕСЃС‚Рё
 		double v[2] = { u0 ,u0};
 		double v_ = u0;
-		double S=v[0]-v_, e=S*16;//вспомогательная величина и оценка лок.погершности
+		double S=v[0]-v_, e=S*16;//РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅР°СЏ РІРµР»РёС‡РёРЅР° Рё РѕС†РµРЅРєР° Р»РѕРє.РїРѕРіРµСЂС€РЅРѕСЃС‚Рё
 		int Q1;
 		int check;
 		if (u0 <= up+1)
@@ -414,11 +414,11 @@ namespace TestPlots {
 		if (u0 > up + 1)
 			Q1 = 0;
 		int Q1_ = Q1;
-		//заполним начальные условия в таблице
+		//Р·Р°РїРѕР»РЅРёРј РЅР°С‡Р°Р»СЊРЅС‹Рµ СѓСЃР»РѕРІРёСЏ РІ С‚Р°Р±Р»РёС†Рµ
 		f1_list->Add(x, v[1]);
 		mytable->Create_Table(8,xmax);
 		mytable->Fill_Table(0, j, n);
-		mytable->Fill_Table(1, j, 0);//здесь вместо нуля в общем случае x
+		mytable->Fill_Table(1, j, 0);//Р·РґРµСЃСЊ РІРјРµСЃС‚Рѕ РЅСѓР»СЏ РІ РѕР±С‰РµРј СЃР»СѓС‡Р°Рµ x
 		mytable->Fill_Table(2, j, h);
 		mytable->Fill_Table(3, j, v[0]);
 		mytable->Fill_Table(4, j, v_);
@@ -428,7 +428,7 @@ namespace TestPlots {
 		n++,j++;
 		for (int i=0;i<xmax-1;i++)
 		{
-			double xn = x;//сохраняем предыдущий икс так как после RK значение х поменяется
+			double xn = x;//СЃРѕС…СЂР°РЅСЏРµРј РїСЂРµРґС‹РґСѓС‰РёР№ РёРєСЃ С‚Р°Рє РєР°Рє РїРѕСЃР»Рµ RK Р·РЅР°С‡РµРЅРёРµ С… РїРѕРјРµРЅСЏРµС‚СЃСЏ
 			v[1] = RK4(x,v[0],h,Q1);
 			v_ = RK4_(xn, v[0], h, Q1);
 			S = (v[1]-v_) / 15;
@@ -449,7 +449,7 @@ namespace TestPlots {
 			{
 				f1_list->Add(x, v[1]);
 				mytable->Fill_Table(0, j, n);
-				mytable->Fill_Table(1, j, x);//здесь вместо нуля в общем случае x
+				mytable->Fill_Table(1, j, x);//Р·РґРµСЃСЊ РІРјРµСЃС‚Рѕ РЅСѓР»СЏ РІ РѕР±С‰РµРј СЃР»СѓС‡Р°Рµ x
 				mytable->Fill_Table(2, j, h);
 				mytable->Fill_Table(3, j, v[1]);
 				mytable->Fill_Table(4, j, v_);
@@ -462,7 +462,7 @@ namespace TestPlots {
 			{
 				f1_list->Add(x, v[1]);
 				mytable->Fill_Table(0, j, n);
-				mytable->Fill_Table(1, j, x);//здесь вместо нуля в общем случае x
+				mytable->Fill_Table(1, j, x);//Р·РґРµСЃСЊ РІРјРµСЃС‚Рѕ РЅСѓР»СЏ РІ РѕР±С‰РµРј СЃР»СѓС‡Р°Рµ x
 				mytable->Fill_Table(2, j, h);
 				mytable->Fill_Table(3, j, v[1]);
 				mytable->Fill_Table(4, j, v_);
@@ -476,10 +476,10 @@ namespace TestPlots {
 		}
 		h = 0.00001;
 		double y = 10;
-		long double x1 = 0.001987690874387997; //при ку = 30к график пересекает у = 21
-		long double x2 = 0.004929489115390535; // при ку = 0 график пересекает у = 21
-		long double rank = 0.002408840742271373; // нарушение дифференцируемости у = 23
-		long double T = x2 - x1; // период так называемый
+		long double x1 = 0.001987690874387997; //РїСЂРё РєСѓ = 30Рє РіСЂР°С„РёРє РїРµСЂРµСЃРµРєР°РµС‚ Сѓ = 21
+		long double x2 = 0.004929489115390535; // РїСЂРё РєСѓ = 0 РіСЂР°С„РёРє РїРµСЂРµСЃРµРєР°РµС‚ Сѓ = 21
+		long double rank = 0.002408840742271373; // РЅР°СЂСѓС€РµРЅРёРµ РґРёС„С„РµСЂРµРЅС†РёСЂСѓРµРјРѕСЃС‚Рё Сѓ = 23
+		long double T = x2 - x1; // РїРµСЂРёРѕРґ С‚Р°Рє РЅР°Р·С‹РІР°РµРјС‹Р№
 		int i = 0;
 		long double x_new = 0;
 		for (long double x_=0;x_<x;x_=x_+h)
