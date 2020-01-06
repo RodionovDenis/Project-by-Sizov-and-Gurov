@@ -1,0 +1,5 @@
+﻿  Zeidel.cpp
+Z:\projectvs\zeidel\Zeidel.h(402,11): warning C4101: r: неиспользованная локальная переменная
+Z:\projectvs\zeidel\Zeidel.cpp(7,32): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  Zeidel.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  zeidel.vcxproj -> Z:\projectvs\zeidel\Debug\zeidel.exe
