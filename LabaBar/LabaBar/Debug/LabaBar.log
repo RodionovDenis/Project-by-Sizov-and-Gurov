@@ -1,0 +1,5 @@
+﻿  MyForm.cpp
+C:\Users\neoga\source\repos\LabaBar\LabaBar\MyForm.h(728,29): warning C4244:  аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\neoga\source\repos\LabaBar\LabaBar\MyForm.h(676): warning C4715:  LabaBar::MyForm::CheckLocalFault: значение возвращается не при всех путях выполнения
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  LabaBar.vcxproj -> C:\Users\neoga\source\repos\LabaBar\Debug\LabaBar.exe
