@@ -1,0 +1,5 @@
+﻿  MyForm.cpp
+Z:\projectvs\labacm\labacm\MyForm.h(700): warning C4700: использована неинициализированная локальная переменная "c2"
+Z:\projectvs\labacm\labacm\MyForm.h(700): warning C4700: использована неинициализированная локальная переменная "c1"
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  labacm.vcxproj -> Z:\projectvs\labacm\Debug\labacm.exe
