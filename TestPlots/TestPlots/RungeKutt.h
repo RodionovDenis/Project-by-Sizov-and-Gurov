@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <math.h>
 
 double f(double u, double Q1)
@@ -7,22 +7,22 @@ double f(double u, double Q1)
 	return 0.25 * (Q1 - 500 * u);
 }
 
-double solver(double x,double Q1, double u0, double x0) //решение в зависимости от н.у. , Q1, x
+double solver(double x,double Q1, double u0, double x0) //СЂРµС€РµРЅРёРµ РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ РЅ.Сѓ. , Q1, x
 {
 	return 0.002 * Q1 + (u0 - 0.002 * Q1) * exp(125 * (x0 - x));
 }
 
-double u1(double x) //решение при Q1 = 0, определенное до непрерывности
+double u1(double x) //СЂРµС€РµРЅРёРµ РїСЂРё Q1 = 0, РѕРїСЂРµРґРµР»РµРЅРЅРѕРµ РґРѕ РЅРµРїСЂРµСЂС‹РІРЅРѕСЃС‚Рё
 {
 	return 60 - 50 * exp(-125 * x);
 }
 
-double u2(double x) //решение при Q1 = 0, определенное до непрерывности
+double u2(double x) //СЂРµС€РµРЅРёРµ РїСЂРё Q1 = 0, РѕРїСЂРµРґРµР»РµРЅРЅРѕРµ РґРѕ РЅРµРїСЂРµСЂС‹РІРЅРѕСЃС‚Рё
 {
 	return 10 * exp(-125 * x);
 }
 
-double PK4(double x, double v, double h, double Q1) //Метод РК 4-ого порядка, один шаг. (x,v) - предыдущая точка 
+double PK4(double x, double v, double h, double Q1) //С›РµС‚РѕРґ вЂ“В  4-РѕРіРѕ РїРѕСЂВ¤РґРєР°, РѕРґРёРЅ С€Р°Рі. (x,v) - РїСЂРµРґС‹РґСѓС‰Р°В¤ С‚РѕС‡РєР° 
 {
 	double k1 = f(v,Q1);
 	double k2 = f(v + h / 2 * k1, Q1);
@@ -31,7 +31,7 @@ double PK4(double x, double v, double h, double Q1) //Метод РК 4-ого порядка, од
 	return v + h / 6 * (k1 + 2 * k2 + 2 * k3 + k4);
 }
 
-double GetS(double v_, double v) //получить S, p считаем равным 4
+double GetS(double v_, double v) //РїРѕР»СѓС‡РёС‚СЊ S, p СЃС‡РёС‚Р°РµРј СЂР°РІРЅС‹Рј 4
 {
 	return abs((v_ - v) / 15);
 }

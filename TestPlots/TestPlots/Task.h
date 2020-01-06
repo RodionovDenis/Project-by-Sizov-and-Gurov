@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 namespace TestPlots {
 
@@ -10,7 +10,7 @@ namespace TestPlots {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Task
+	/// вЂ”РІРѕРґРєР° РґР»В¤ Task
 	/// </summary>
 	public ref class Task : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace TestPlots {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// СњСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~Task()
 		{
@@ -39,14 +39,14 @@ namespace TestPlots {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// СњР±В¤Р·Р°С‚РµР»СЊРЅР°В¤ РїРµСЂРµРјРµРЅРЅР°В¤ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// вЂњСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»В¤ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° Р§ РЅРµ РёР·РјРµРЅВ¤Р№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{

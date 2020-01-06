@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "Table.h"
 #include <cmath>
 #include "Task.h"
@@ -16,7 +16,7 @@ namespace TestPlots {
 
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -24,9 +24,9 @@ namespace TestPlots {
 		MyForm(void)
 		{
 			InitializeComponent();
-			zedGraphControl1->GraphPane->XAxis->Title->Text = "Ось X";
-			zedGraphControl1->GraphPane->YAxis->Title->Text = "Ось U";
-			zedGraphControl1->GraphPane->Title->Text = "Зависимость температуры от времени";
+			zedGraphControl1->GraphPane->XAxis->Title->Text = "РћСЃСЊ X";
+			zedGraphControl1->GraphPane->YAxis->Title->Text = "РћСЃСЊ U";
+			zedGraphControl1->GraphPane->Title->Text = "Р—Р°РІРёСЃРёРјРѕСЃС‚СЊ С‚РµРјРїРµСЂР°С‚СѓСЂС‹ РѕС‚ РІСЂРµРјРµРЅРё";
 			textBox6->Text = "0";
 			label10->Hide();
 			label11->Hide();
@@ -36,13 +36,13 @@ namespace TestPlots {
 			label7->Hide();
 			textBox6->Hide();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -105,14 +105,14 @@ namespace TestPlots {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -163,7 +163,7 @@ namespace TestPlots {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(206, 18);
 			this->label2->TabIndex = 8;
-			this->label2->Text = L"Максимальное число шагов";
+			this->label2->Text = L"РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ С€Р°РіРѕРІ";
 			// 
 			// label3
 			// 
@@ -172,7 +172,7 @@ namespace TestPlots {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(116, 18);
 			this->label3->TabIndex = 9;
-			this->label3->Text = L"Начальный шаг";
+			this->label3->Text = L"РќР°С‡Р°Р»СЊРЅС‹Р№ С€Р°Рі";
 			// 
 			// textBox3
 			// 
@@ -203,7 +203,7 @@ namespace TestPlots {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(145, 33);
 			this->button2->TabIndex = 14;
-			this->button2->Text = L"Вычислить";
+			this->button2->Text = L"Р’С‹С‡РёСЃР»РёС‚СЊ";
 			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::Button2_Click);
 			// 
@@ -229,7 +229,7 @@ namespace TestPlots {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(148, 18);
 			this->label4->TabIndex = 19;
-			this->label4->Text = L"Начальные условия";
+			this->label4->Text = L"РќР°С‡Р°Р»СЊРЅС‹Рµ СѓСЃР»РѕРІРёСЏ";
 			// 
 			// label6
 			// 
@@ -238,7 +238,7 @@ namespace TestPlots {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(156, 18);
 			this->label6->TabIndex = 22;
-			this->label6->Text = L"Значение регулятора";
+			this->label6->Text = L"Р—РЅР°С‡РµРЅРёРµ СЂРµРіСѓР»СЏС‚РѕСЂР°";
 			// 
 			// textBox2
 			// 
@@ -255,7 +255,7 @@ namespace TestPlots {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(145, 33);
 			this->button1->TabIndex = 24;
-			this->button1->Text = L"Показать таблицу";
+			this->button1->Text = L"РџРѕРєР°Р·Р°С‚СЊ С‚Р°Р±Р»РёС†Сѓ";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::Button1_Click);
 			// 
@@ -273,7 +273,7 @@ namespace TestPlots {
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(204, 18);
 			this->label8->TabIndex = 26;
-			this->label8->Text = L"Контроль лок. погрешности";
+			this->label8->Text = L"РљРѕРЅС‚СЂРѕР»СЊ Р»РѕРє. РїРѕРіСЂРµС€РЅРѕСЃС‚Рё";
 			// 
 			// button3
 			// 
@@ -281,7 +281,7 @@ namespace TestPlots {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(86, 38);
 			this->button3->TabIndex = 27;
-			this->button3->Text = L"Принять";
+			this->button3->Text = L"РџСЂРёРЅСЏС‚СЊ";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::Button3_Click);
 			// 
@@ -292,7 +292,7 @@ namespace TestPlots {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(178, 38);
 			this->label9->TabIndex = 28;
-			this->label9->Text = L"Использовать стандартные параметры";
+			this->label9->Text = L"РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃС‚Р°РЅРґР°СЂС‚РЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹";
 			// 
 			// label5
 			// 
@@ -302,7 +302,7 @@ namespace TestPlots {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(121, 31);
 			this->label5->TabIndex = 29;
-			this->label5->Text = L"Справка:";
+			this->label5->Text = L"РЎРїСЂР°РІРєР°:";
 			this->label5->Click += gcnew System::EventHandler(this, &MyForm::Label5_Click);
 			// 
 			// label10
@@ -312,7 +312,7 @@ namespace TestPlots {
 			this->label10->Name = L"label10";
 			this->label10->Size = System::Drawing::Size(125, 18);
 			this->label10->TabIndex = 30;
-			this->label10->Text = L"Число удвоений:";
+			this->label10->Text = L"Р§РёСЃР»Рѕ СѓРґРІРѕРµРЅРёР№:";
 			// 
 			// label11
 			// 
@@ -321,7 +321,7 @@ namespace TestPlots {
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(118, 18);
 			this->label11->TabIndex = 31;
-			this->label11->Text = L"Число делений:";
+			this->label11->Text = L"Р§РёСЃР»Рѕ РґРµР»РµРЅРёР№:";
 			// 
 			// label12
 			// 
@@ -330,7 +330,7 @@ namespace TestPlots {
 			this->label12->Name = L"label12";
 			this->label12->Size = System::Drawing::Size(149, 18);
 			this->label12->TabIndex = 32;
-			this->label12->Text = L"Максимальный шаг:";
+			this->label12->Text = L"РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі:";
 			// 
 			// label13
 			// 
@@ -339,7 +339,7 @@ namespace TestPlots {
 			this->label13->Name = L"label13";
 			this->label13->Size = System::Drawing::Size(141, 18);
 			this->label13->TabIndex = 33;
-			this->label13->Text = L"Минимальный шаг:";
+			this->label13->Text = L"РњРёРЅРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі:";
 			// 
 			// checkBox1
 			// 
@@ -349,7 +349,7 @@ namespace TestPlots {
 			this->checkBox1->Name = L"checkBox1";
 			this->checkBox1->Size = System::Drawing::Size(273, 26);
 			this->checkBox1->TabIndex = 34;
-			this->checkBox1->Text = L"Использовать контроль шага";
+			this->checkBox1->Text = L"РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєРѕРЅС‚СЂРѕР»СЊ С€Р°РіР°";
 			this->checkBox1->UseVisualStyleBackColor = true;
 			this->checkBox1->CheckedChanged += gcnew System::EventHandler(this, &MyForm::CheckBox1_CheckedChanged);
 			// 
@@ -360,7 +360,7 @@ namespace TestPlots {
 			this->label14->Name = L"label14";
 			this->label14->Size = System::Drawing::Size(117, 18);
 			this->label14->TabIndex = 35;
-			this->label14->Text = L"Правая граница";
+			this->label14->Text = L"РџСЂР°РІР°СЏ РіСЂР°РЅРёС†Р°";
 			// 
 			// textBox1
 			// 
@@ -376,7 +376,7 @@ namespace TestPlots {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(156, 36);
 			this->label1->TabIndex = 38;
-			this->label1->Text = L"Контроль выхода на \r\nграницу";
+			this->label1->Text = L"РљРѕРЅС‚СЂРѕР»СЊ РІС‹С…РѕРґР° РЅР° \r\nРіСЂР°РЅРёС†Сѓ";
 			// 
 			// textBox7
 			// 
@@ -395,7 +395,7 @@ namespace TestPlots {
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(145, 33);
 			this->button5->TabIndex = 40;
-			this->button5->Text = L"Очистить график";
+			this->button5->Text = L"РћС‡РёСЃС‚РёС‚СЊ РіСЂР°С„РёРє";
 			this->button5->UseVisualStyleBackColor = false;
 			this->button5->Click += gcnew System::EventHandler(this, &MyForm::Button5_Click);
 			// 
@@ -407,7 +407,7 @@ namespace TestPlots {
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(172, 33);
 			this->button4->TabIndex = 41;
-			this->button4->Text = L"Постановка задачи";
+			this->button4->Text = L"РџРѕСЃС‚Р°РЅРѕРІРєР° Р·Р°РґР°С‡Рё";
 			this->button4->UseVisualStyleBackColor = false;
 			this->button4->Click += gcnew System::EventHandler(this, &MyForm::button4_Click_1);
 			// 
@@ -418,7 +418,7 @@ namespace TestPlots {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(174, 18);
 			this->label7->TabIndex = 42;
-			this->label7->Text = L"Максимальная ошибка:";
+			this->label7->Text = L"РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РѕС€РёР±РєР°:";
 			// 
 			// MyForm
 			// 
@@ -524,11 +524,11 @@ namespace TestPlots {
 		   }
 		   void Reference(int c1, int c2, double max_h, double min_h,double maxolp,double x)
 		   {
-			   label11->Text = "Число делений" + " " + Convert::ToString(c1);
-			   label10->Text = "Число удвоений" + " " + Convert::ToString(c2);
-			   label12->Text = "Максимальный шаг" + " " + Convert::ToString(max_h);
-			   label13->Text = "Минимальный шаг" + " " + Convert::ToString(min_h);
-			   label7->Text = "Максимальная ошибка " + Convert::ToString(maxolp) + " в точке " + Convert::ToString(x);
+			   label11->Text = "Р§РёСЃР»Рѕ РґРµР»РµРЅРёР№" + " " + Convert::ToString(c1);
+			   label10->Text = "Р§РёСЃР»Рѕ СѓРґРІРѕРµРЅРёР№" + " " + Convert::ToString(c2);
+			   label12->Text = "РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі" + " " + Convert::ToString(max_h);
+			   label13->Text = "РњРёРЅРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі" + " " + Convert::ToString(min_h);
+			   label7->Text = "РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РѕС€РёР±РєР° " + Convert::ToString(maxolp) + " РІ С‚РѕС‡РєРµ " + Convert::ToString(x);
 			   label10->Show();
 			   label11->Show();
 			   label12->Show();
@@ -546,14 +546,14 @@ namespace TestPlots {
 
 		int n = 1, j = 0;
 		bool c1 = false;
-		int  c2 = 0;//счетчики увеличения/уменьшения шага
+		int  c2 = 0;//СЃС‡РµС‚С‡РёРєРё СѓРІРµР»РёС‡РµРЅРёСЏ/СѓРјРµРЅСЊС€РµРЅРёСЏ С€Р°РіР°
 
 		double x = 0;
 		double N = Convert::ToDouble(textBox4->Text);
-		double h = Convert::ToDouble(textBox3->Text);//шаг
-		double up = Convert::ToDouble(textBox2->Text);//значение регулятора
+		double h = Convert::ToDouble(textBox3->Text);//С€Р°Рі
+		double up = Convert::ToDouble(textBox2->Text);//Р·РЅР°С‡РµРЅРёРµ СЂРµРіСѓР»СЏС‚РѕСЂР°
 		double u0 = Convert::ToDouble(textBox5->Text);
-		double E = Convert::ToDouble(textBox6->Text);//контроль лок. погрешности
+		double E = Convert::ToDouble(textBox6->Text);//РєРѕРЅС‚СЂРѕР»СЊ Р»РѕРє. РїРѕРіСЂРµС€РЅРѕСЃС‚Рё
 		double xmax = Convert::ToDouble(textBox1->Text);
 		double accuracy = Convert::ToDouble(textBox7->Text);
 
@@ -562,7 +562,7 @@ namespace TestPlots {
 
 		double v[2] = { u0 ,u0 };
 		double v_ = u0;
-		double S = v[0] - v_, e = S * 16;//вспомогательная величина и оценка лок.погершности
+		double S = v[0] - v_, e = S * 16;//РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅР°СЏ РІРµР»РёС‡РёРЅР° Рё РѕС†РµРЅРєР° Р»РѕРє.РїРѕРіРµСЂС€РЅРѕСЃС‚Рё
 		double max_h = h, min_h = h;
 		int count_div = 0, count_mult = 0;
 		int Q1;
@@ -575,10 +575,10 @@ namespace TestPlots {
 		f1_list->Add(x, v[1]);
 		mytable->Create_Table(9, N);
 
-		//заполним начальные условия в таблице
+		//Р·Р°РїРѕР»РЅРёРј РЅР°С‡Р°Р»СЊРЅС‹Рµ СѓСЃР»РѕРІРёСЏ РІ С‚Р°Р±Р»РёС†Рµ
 		mytable->Fill_Table(j, n, h, x, v[1], v_,e, 0, 0);
 		n++, j++;
-		if (checkBox1->Checked == true)// используется метод контроля шага 
+		if (checkBox1->Checked == true)// РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РјРµС‚РѕРґ РєРѕРЅС‚СЂРѕР»СЏ С€Р°РіР° 
 		{
 			for (int i = 0; i < N-1; i++)
 			{
@@ -635,7 +635,7 @@ namespace TestPlots {
 				v[0] = v[1];
 			}
 		}
-		if (checkBox1->Checked == false)//с постоянным шагом
+		if (checkBox1->Checked == false)//СЃ РїРѕСЃС‚РѕСЏРЅРЅС‹Рј С€Р°РіРѕРј
 		{
 			for (int i = 0; i < N-1; i++)
 			{
@@ -669,8 +669,8 @@ namespace TestPlots {
 		std::string colors[4] = { "Red","Black","Brown","LightBlue" };
 		String^ str = gcnew System::String(colors[push].c_str());
 		Color curve_color = Color::FromName(str);
-		LineItem^ Curve1 = panel->AddCurve("Численное решение", f1_list, curve_color, SymbolType::None);
-	//	LineItem^ Curve2 = panel->AddCurve("Точное Решение", f2_list, Color::Green, SymbolType::None);
+		LineItem^ Curve1 = panel->AddCurve("Р§РёСЃР»РµРЅРЅРѕРµ СЂРµС€РµРЅРёРµ", f1_list, curve_color, SymbolType::None);
+	//	LineItem^ Curve2 = panel->AddCurve("РўРѕС‡РЅРѕРµ Р РµС€РµРЅРёРµ", f2_list, Color::Green, SymbolType::None);
 		Curve1->Line->Width = 0.05f;
 	//	Curve2->Line->Width = 0.05f;
 		zedGraphControl1->AxisChange();

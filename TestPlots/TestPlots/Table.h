@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 
 namespace TestPlots {
@@ -11,7 +11,7 @@ namespace TestPlots {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Table
+	/// вЂ”РІРѕРґРєР° РґР»В¤ Table
 	/// </summary>
 	public ref class Table : public System::Windows::Forms::Form
 	{
@@ -33,7 +33,7 @@ namespace TestPlots {
 		{
 			Fill_Line(0, j, n);
 			Fill_Line(1, j, x);
-			Fill_Line(2, j, h);//здесь вместо нуля в общем случае x
+			Fill_Line(2, j, h);//Р·РґРµСЃСЊ РІРјРµСЃС‚Рѕ РЅСѓР»В¤ РІ РѕР±С‰РµРј СЃР»СѓС‡Р°Рµ x
 			Fill_Line(3, j, v);
 			Fill_Line(4, j, v_);
 			Fill_Line(5, j, v-v_);
@@ -47,7 +47,7 @@ namespace TestPlots {
 		}
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// СњСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~Table()
 		{
@@ -156,14 +156,14 @@ namespace TestPlots {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// СњР±В¤Р·Р°С‚РµР»СЊРЅР°В¤ РїРµСЂРµРјРµРЅРЅР°В¤ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// вЂњСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»В¤ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° Р§ РЅРµ РёР·РјРµРЅВ¤Р№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -252,14 +252,14 @@ namespace TestPlots {
 			// 
 			// c1
 			// 
-			this->c1->HeaderText = L"Ув. шага";
+			this->c1->HeaderText = L"вЂќРІ. С€Р°РіР°";
 			this->c1->Name = L"c1";
 			this->c1->ReadOnly = true;
 			this->c1->Width = 60;
 			// 
 			// c2
 			// 
-			this->c2->HeaderText = L"Ум.шага";
+			this->c2->HeaderText = L"вЂќРј.С€Р°РіР°";
 			this->c2->Name = L"c2";
 			this->c2->ReadOnly = true;
 			this->c2->Width = 60;
