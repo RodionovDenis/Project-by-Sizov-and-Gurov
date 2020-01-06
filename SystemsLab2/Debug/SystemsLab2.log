@@ -1,0 +1,4 @@
+﻿  Pendulum.cpp
+Z:\projectvs\SystemsLab2\Pendulum.cpp(7,32): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  Pendulum.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  SystemsLab2.vcxproj -> Z:\projectvs\SystemsLab2\Debug\SystemsLab2.exe
