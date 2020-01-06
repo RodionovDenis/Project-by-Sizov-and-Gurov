@@ -1,5 +1,5 @@
 ﻿  MyForm.cpp
-Z:\проекты vs\TestPlots\TestPlots\MyForm.h(419,27): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-Z:\проекты vs\TestPlots\TestPlots\MyForm.h(366): warning C4715: TestPlots::MyForm::CheckLocalFault: значение возвращается не при всех путях выполнения
+Z:\projectvs\TestPlots\TestPlots\MyForm.h(576,28): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+Z:\projectvs\TestPlots\TestPlots\MyForm.h(499): warning C4715: TestPlots::MyForm::CheckLocalFault: значение возвращается не при всех путях выполнения
   MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
-  TestPlots.vcxproj -> Z:\проекты vs\TestPlots\Debug\TestPlots.exe
+  TestPlots.vcxproj -> Z:\projectvs\TestPlots\Debug\TestPlots.exe

@@ -23,14 +23,14 @@
     <ProjectGuid>{20928266-4E45-49D6-ACBC-FB1CEAC5AC56}</ProjectGuid>
     <Keyword>ManagedCProj</Keyword>
     <RootNamespace>TestPlots</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <UseDebugLibraries>true</UseDebugLibraries>
-    <CLRSupport>true</CLRSupport>
-    <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CLRSupport>true</CLRSupport>
+    <UseDebugLibraries>true</UseDebugLibraries>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -92,6 +92,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
     </Link>
+    <BuildLog />
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -134,12 +135,17 @@
   <ItemGroup>
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="Table.cpp" />
+    <ClCompile Include="Task.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="RungeKutt.h" />
     <ClInclude Include="Table.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Task.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
@@ -149,6 +155,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Table.resx">
       <DependentUpon>Table.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task.resx">
+      <DependentUpon>Task.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

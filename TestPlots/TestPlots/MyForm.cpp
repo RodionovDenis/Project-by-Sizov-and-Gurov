@@ -1,10 +1,9 @@
-﻿#include "MyForm.h"
+#include "MyForm.h"
 #include "Table.h"
 #include <Windows.h>
 #include <iostream>
-#include <clocale>
-
 using namespace TestPlots;
+
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
 	Application::EnableVisualStyles();
@@ -12,3 +11,4 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 	Application::Run(gcnew MyForm);
 	return 0;
 }
+
