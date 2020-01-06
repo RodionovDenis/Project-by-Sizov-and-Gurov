@@ -1,0 +1,8 @@
+﻿  MainTask.cpp
+  main.cpp
+Z:\projectvs\KraevayaZadacha\MainTask.h(310,1): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+Z:\projectvs\KraevayaZadacha\MainTask.h(310,1): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  Создание кода...
+Z:\projectvs\KraevayaZadacha\main.cpp(7,32): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  main.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  KraevayaZadacha.vcxproj -> Z:\projectvs\KraevayaZadacha\Debug\KraevayaZadacha.exe
